@@ -327,7 +327,7 @@ padding-bottom: 24px;
     border-radius: 50px 0px 0px 50px;;
     border: none;
 }
-button{
+.newsletter> .email-field>button{
     width: 210px;
     height: 72px;
     border-radius: 0px 50px 50px 0px;
@@ -377,6 +377,7 @@ button:hover{
 .website{
     color: #FFF;
     text-decoration: none;
+
 }
 hr{
     background: rgba(255, 255, 255, 0.15);
@@ -411,7 +412,6 @@ hr{
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-    padding-top: 50px;
     padding-right: 140px;
     padding-bottom: 120px;
 }
