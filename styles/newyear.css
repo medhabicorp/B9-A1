@@ -1,0 +1,156 @@
+body{
+    font-family: 'Merriweather', serif;
+}
+
+/* header related styles */
+
+.header{
+    background:linear-gradient(#070211, #07021100), url('../resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;    
+    margin: 50px 140px 100px 140px;
+    border-radius: 16px;
+
+}
+.intro{
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    padding-top: 177px;
+}
+.title {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    padding-bottom: 177px; 
+}
+
+/* 1st section styles */
+
+.off-section{
+    text-align: center;
+    margin: 0px 140px 100px 140px;
+}
+.off{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+.off-description{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.catagories{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+/* 2nd section styles */
+
+.welcome-section{
+    background:linear-gradient(to right,#060606, #00000000), url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-position: top center;    
+    background-size: cover;
+    margin: 0px 140px 100px 140px;;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.welcome-content{
+    padding-left: 126px;
+}
+.welcome-party-title{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    margin-top: 126px;
+    margin-bottom: 24px;
+}
+.wel-description{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 620px;
+}
+.wel-btn{
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    margin-left: 32px;
+    margin-bottom: 142px;
+}
+.wel-btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+.img-2024{
+    margin-right: 120px;
+    max-height: 450px;
+}
+
+/* Venue Section Styles */
+
+.venue{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);  
+    margin: 0px 140px 100px 140px;
+    border-radius: 16px;
+    text-align: center;
+}
+.venue-content{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    padding-top: 100px;
+}
+
+.red-venue-title{
+    color: #F00;
+}
+
+.venue-btn{
+    display: inline-flex;
+    padding: 16px 32px;
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
+.venue-btn:hover{
+    background: #fff;
+    color: #f00;
+    border: #F00 1px solid;
+}
