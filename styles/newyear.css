@@ -1,3 +1,5 @@
+/* common shared styles */
+
 body{
     font-family: 'Merriweather', serif;
 }
@@ -8,7 +10,7 @@ body{
     background:linear-gradient(#070211, #07021100), url('../resources/Banner\ Image.png');
     background-repeat: no-repeat;
     background-position: top center;
-    background-size: cover;    
+    background-size: cover;   
     margin: 50px 140px 100px 140px;
     border-radius: 16px;
 
@@ -20,6 +22,7 @@ body{
     color: #fff;
     text-align: center;
     padding-top: 177px;
+    margin-bottom: 0;
 }
 .title {
     color: #FFF;
@@ -28,6 +31,8 @@ body{
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
+    margin-top: 0;
+    padding-top: 16px;
     padding-bottom: 177px; 
 }
 
@@ -68,7 +73,7 @@ body{
     background-repeat: no-repeat;
     background-position: top center;    
     background-size: cover;
-    margin: 0px 140px 100px 140px;;
+    margin: 0px 140px 100px 140px;
     border-radius: 16px;
     display: flex;
     align-items: center;
@@ -93,7 +98,7 @@ body{
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    max-width: 620px;
+    max-width: 695px;
 }
 .wel-btn{
     background-color: #000;
@@ -111,7 +116,7 @@ body{
     color: #000;
 }
 .img-2024{
-    margin-right: 120px;
+    padding-right: 110px;
     max-height: 450px;
 }
 
@@ -131,6 +136,7 @@ body{
     line-height: 56px;
     text-transform: capitalize;
     padding-top: 100px;
+    margin-top: 0px;
 }
 
 .red-venue-title{
@@ -153,4 +159,121 @@ body{
     background: #fff;
     color: #f00;
     border: #F00 1px solid;
+}
+
+/* coming soon section */
+
+.coming-soon-section{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin: 0px 140px 100px 140px;
+
+}
+.coming-content{
+    align-items: left;
+    max-width: 390px;
+}
+.best-offer{
+    color: #F00;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.coming-title{
+    color: #070211;
+    text-align: left;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+.coming-descrip{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    min-width: 350px;
+}
+.coming-img-sec{
+    border: #F00 15px solid;
+    border-radius: 463px;
+    padding: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.coming-content-right{
+    align-items: right;
+    max-width: 290px;
+}
+
+.year-2024{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 80px;
+    margin-bottom: 0px;
+
+}
+.coming-descrip-2{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.HNY-img{
+    max-width: 140px;
+    max-width: 140px;
+    margin-top: 30px;
+}
+
+/* products portfolio section  */
+
+.product-portfolio-sec{
+    margin: 0px 140px 100px 140px;
+}
+.product-sec-contents{
+    align-items: left;
+}
+.product-sec-intro{
+    color: #F00;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.product-sec-title{
+color: #070211;
+text-align: left;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+margin-top: 16px;
+margin-bottom: 22px;
+}
+
+.product-sec-descrip{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    min-width: 350px;
+}
+
+.product-row{
+    display: flex;
+}
+
+.product-item{
+flex: 33.33%;
+padding-right: 24px;
+padding-bottom: 24px;
 }
